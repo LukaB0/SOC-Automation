@@ -1,8 +1,8 @@
-# SOC Automation Lab
+# SOC Automation Project
 
 ## Objective
 
-The SOC Automation Lab project aimed to gain hands-on experience setting up a controlled environment for simualting and detecting cyber attacks. The primary focus was to streamline incident response processes and enhance threat detection capabilities through the implementation of automated workflows and tools. This initiative aims to reduce manual intervention, increase efficiency, and bolster the overall security posture of digital assets.
+This SOC Automation Project aimed to gain hands-on experience setting up a controlled environment for simualting and detecting cyber attacks. The primary focus was to streamline incident response processes and enhance threat detection capabilities through the implementation of automated workflows and tools. This initiative aims to reduce manual intervention, increase efficiency, and bolster the overall security posture of digital assets.
 
 ### Skills Learned
 
@@ -20,14 +20,28 @@ The SOC Automation Lab project aimed to gain hands-on experience setting up a co
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Draw.io for designing the topology for the SOC Automation Project.
+  
+- Virtual Box for installing Windows 10.
+
+- Sysmon for enhancing security monitoring and incident response capabilites.
+  
+- Digital Ocean for setting up the cloud servers for Wazuh and TheHive. 
+
+- Wazuh for SIEM capabilities.
+
+- TheHive for the aggregation of security alerts on a collaborative platform.
+
+- Shuffler.io for streamling workflows and automating security operations.
+
+- SOAR for the integration of security tools and orchestrating response actions.
+
+- VirusTotal for analysis of suspicious files or URLS.
 
 ## Steps
 
 ### 1: Topology Design
-Designing a topology for a SOC automation lab is the initial step, enabling understanding of requirements, effective resource allocation, risk mitigation, integration planning, and provision of a testing environment.
+Designing a topology for a SOC Autoamtion Project is the initial step, enabling understanding of requirements, effective resource allocation, risk mitigation, integration planning, and provision of a testing environment.
 
 ![SOC Automation Diagram2 drawio](https://github.com/LukaB0/SOC-Automation/assets/169913850/0de526bd-0818-484b-acd4-45b9daadd196)
 
