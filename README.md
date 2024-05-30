@@ -63,9 +63,9 @@ Setting up TheHive on DigitalOcean entails provisioning a cloud instance, select
 
 #### Firewall
 
-![Firewall Rules](https://github.com/LukaB0/SOC-Automation/assets/169913850/60800287-0d7d-4f3c-a783-0da85f7723f4)
+![Firewall Rules](https://github.com/LukaB0/SOC-Automation/assets/169913850/6d66d7ce-042b-4eb0-96dc-b90d13512494)
 
-![Adding Servers to Firewall](https://github.com/LukaB0/SOC-Automation/assets/169913850/abdba46f-0489-4d16-9d35-1b24d80a7f50)
+![Adding Servers to Firewall](https://github.com/LukaB0/SOC-Automation/assets/169913850/dd0c3881-0a10-4fd4-aba2-7d04a05a82b2)
 
 ### 3: Servers & Endpoints Configurations
 
