@@ -109,7 +109,7 @@ To ensure that mimikatz would still be detected even if the filename is changed 
 ![og mimikatz filename](https://github.com/LukaB0/SOC-Automation/assets/169913850/c255b524-526e-4569-934d-afe742b22b3c)
 *Ref 8: Original Filename Rule*
 
-The screenshot below shows alert in Wazuh as a Mimikatz detection
+The screenshot below shows the alert in Wazuh as a Mimikatz detection.
 
 ![Mimikatz Detection](https://github.com/LukaB0/SOC-Automation/assets/169913850/24709c52-b2bc-4c27-a84d-125631d2bcf3)
 *Ref 9: Mimikatz Detection*
