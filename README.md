@@ -119,7 +119,7 @@ The screenshot below shows the alert in Wazuh as a Mimikatz detection.
 
 ### 5: SOAR Setup & Full Integration
 
-Creating a workflow on Shuffler involves configuring integration between a SOAR (Security Orchestration, Automation, and Response) platform and TheHive. This entails defining trigger conditions in Shuffler to initiate actions based on specific events detected by TheHive. By linking these platforms, security teams can automate incident response processes, streamline case management, and orchestrate remediation actions efficiently, enhancing overall security operations and reducing response times.
+Creating a workflow on Shuffle involves configuring integration between a SOAR (Security Orchestration, Automation, and Response) platform and TheHive. This entails defining trigger conditions in Shuffler to initiate actions based on specific events detected by TheHive. By linking these platforms, security teams can automate incident response processes, streamline case management, and orchestrate remediation actions efficiently, enhancing overall security operations and reducing response times.
 
 ![Shuffler and SOAR](https://github.com/LukaB0/SOC-Automation/assets/169913850/6ddd4a24-9f21-4b34-9606-e572e9eaa31d)
 *Ref 10: Shuffle Workflow*
