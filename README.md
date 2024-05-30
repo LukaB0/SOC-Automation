@@ -36,7 +36,7 @@ This SOC Automation Project aimed to gain hands-on experience setting up a contr
 
 - SOAR for the integration of security tools and orchestrating response actions.
 
-- VirusTotal for analysis of suspicious files or URLS.
+- VirusTotal for analysis of suspicious files or URLs.
 
 ## Steps
 
@@ -52,21 +52,23 @@ It establishes the foundation for an efficiently deployed and strategically alig
 
 #### Windows 10 & Sysmon
 
-Setting up Windows 10 on a VirtualBox machine begins with creating a virtual environment and installing the Windows 10 operating system. Once Windows 10 is running, installing Sysmon enhances security by providing advanced monitoring and logging capabilities, aiding in the detection of malicious activities and threats within the virtualized environment.
+First Windows 10 was installed on a virtual machine. After it was set up, sysmon was installed for advanced monitoring and logging capabilities, aiding in the detection of malicious activities and threats within the virtualized environment.
 
 #### Wazuh
 
-Deploying a Wazuh server on DigitalOcean involves provisioning a cloud instance, selecting appropriate specifications, and installing the Wazuh manager software. Configuration includes setting up necessary firewall rules and network access controls, ensuring secure communication with monitored endpoints. Once configured, the Wazuh server provides centralized security monitoring, log analysis, and threat detection capabilities for the cloud environment, enhancing overall security posture and incident response readiness.
+Digital Ocean's cloud instance was used to deploy a Wazuh server. After selecting the appropriate specifications and installing the software, it was vital to configure the firewall to only allow access from the specified Windows 10 virtual machine. Once configured, the Wazuh server provides centralized security monitoring, log analysis, and threat detection capabilities for the cloud environment, enhancing overall security posture and incident response readiness.
 
 #### TheHive
 
-Setting up TheHive on DigitalOcean entails provisioning a cloud instance, selecting suitable specifications, and installing TheHive platform. Configuration involves securing access with strong authentication measures and configuring integration with other security tools for enhanced incident response capabilities. Once deployed, TheHive serves as a centralized platform for case management, collaboration, and automated response actions, streamlining security operations and improving incident resolution efficiency within the cloud environment.
+Digital Ocean's cloud services were used for TheHive server as well. Once deployed, TheHive serves as a centralized platform for case management, collaboration, and automated response actions, streamlining security operations and improving incident resolution efficiency within the cloud environment. TheHive server was also added to the firewall rules below.
 
 #### Firewall
 
+Rules were added to allow TCP and UDP traffic from a speicified IP address through port 9000.
 ![Firewall Rules](https://github.com/LukaB0/SOC-Automation/assets/169913850/6d66d7ce-042b-4eb0-96dc-b90d13512494)
 *Ref 2: Firewall Rules*
 
+Below shows the two cloud servers added to the firewall.
 ![Adding Servers to Firewall](https://github.com/LukaB0/SOC-Automation/assets/169913850/dd0c3881-0a10-4fd4-aba2-7d04a05a82b2)
 *Ref 3: Adding Servers to Firewall*
 
@@ -91,6 +93,7 @@ Generating telemetry on a Windows 10 machine involves enabling logging features 
 
 #### Wazuh
 
+The Wazuh Dashboard below shows the number of alerts and potential type of attack 
 ![Wazuh Dashboard](https://github.com/LukaB0/SOC-Automation/assets/169913850/edd0f5db-71bf-4506-8529-197bcdc1c1ee)
 *Ref 5: Wazuh Dashboard*
 
