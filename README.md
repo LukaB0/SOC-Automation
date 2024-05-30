@@ -6,7 +6,7 @@ This SOC Automation Project aimed to gain hands-on experience setting up a contr
 
 ### Skills Learned
 
-- Virtualization setup and management: Understanding of virtualization platforms like VirtualBox, including creating and managing virtual machines, networks, and snapshots.
+- Virtualization setup and management: Understanding of virtualization platforms like VirtualBox, including creating and managing virtual machines and networks.
   
 - Network architecture design: Knowledge of network protocols, segmentation, and routing to design a lab network that mirrors production environments, ensuring realistic testing scenarios.
 
@@ -16,7 +16,7 @@ This SOC Automation Project aimed to gain hands-on experience setting up a contr
   
 - Security policy configuration: Understanding of security policies and best practices to configure access controls, encryption, authentication mechanisms, and other security settings to protect lab resources.
 
-- Collaboration and documentation skills: Ability to communicate effectively with team members and stakeholders, as well as document lab setup procedures, configurations, and troubleshooting steps for future reference.
+- Documentation skills: Ability to document lab setup procedures, configurations, and troubleshooting steps for future reference.
 
 ### Tools Used
 
@@ -32,7 +32,7 @@ This SOC Automation Project aimed to gain hands-on experience setting up a contr
 
 - TheHive for the aggregation of security alerts on a collaborative platform.
 
-- Shuffler.io for streamling workflows and automating security operations.
+- Shuffle for streamling workflows and automating security operations.
 
 - SOAR for the integration of security tools and orchestrating response actions.
 
@@ -57,13 +57,15 @@ Setting up Windows 10 on a VirtualBox machine begins with creating a virtual env
 
 Deploying a Wazuh server on DigitalOcean involves provisioning a cloud instance, selecting appropriate specifications, and installing the Wazuh manager software. Configuration includes setting up necessary firewall rules and network access controls, ensuring secure communication with monitored endpoints. Once configured, the Wazuh server provides centralized security monitoring, log analysis, and threat detection capabilities for the cloud environment, enhancing overall security posture and incident response readiness.
 
+#### TheHive
+
+Setting up TheHive on DigitalOcean entails provisioning a cloud instance, selecting suitable specifications, and installing TheHive platform. Configuration involves securing access with strong authentication measures and configuring integration with other security tools for enhanced incident response capabilities. Once deployed, TheHive serves as a centralized platform for case management, collaboration, and automated response actions, streamlining security operations and improving incident resolution efficiency within the cloud environment.
+
+#### Firewall
+
 ![Firewall Rules](https://github.com/LukaB0/SOC-Automation/assets/169913850/60800287-0d7d-4f3c-a783-0da85f7723f4)
 
 ![Adding Servers to Firewall](https://github.com/LukaB0/SOC-Automation/assets/169913850/abdba46f-0489-4d16-9d35-1b24d80a7f50)
-
-### TheHive
-
-Setting up TheHive on DigitalOcean entails provisioning a cloud instance, selecting suitable specifications, and installing TheHive platform. Configuration involves securing access with strong authentication measures and configuring integration with other security tools for enhanced incident response capabilities. Once deployed, TheHive serves as a centralized platform for case management, collaboration, and automated response actions, streamlining security operations and improving incident resolution efficiency within the cloud environment.
 
 ### 3: Servers & Endpoints Configurations
 
