@@ -136,6 +136,8 @@ Creating a workflow on Shuffle involves configuring integration between a SOAR (
 ![Email Notificaiton](https://github.com/LukaB0/SOC-Automation/assets/169913850/83d646ec-a8ca-4cdf-982d-b9a2c2e29961)
 *Ref 14: Email Notification*
 
-## Future Spin-off Projects
+## Conclusion & Future Thoughts
 
-Some future projects utilizing this set up include 
+I had a lot of fun with this project. I had previously encountered the Wazuh and TheHive tools through my training with TryHackMe so it was fun to see behind the scenes on how these services actually get set up to be used in SOC environment. It was really fun configuring the custom rules to specifically detect Mimikatz usage on the Windows 10 machine. However, I would have to say my favorite part was automating all of the tools to work together seamlessly. It was satisfying to see the email notification pop up in my inbox, alerting me of the attack. What I found very useful was integrating VirusTotal within the SOAR instance to pull its own report of the file's hash.
+
+In the future I would like to add some more rules to catch different types of attack tools used by threat actors. Also, I would like to try some attacks myself on the machine such as bruteforcing to see if that would be picked up as well.
